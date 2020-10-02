@@ -1,0 +1,58 @@
+<!--
+	Author - IT17096744 
+	Author Name - N.J.Godewithana
+	
+	This upload.html file contains the code implementation of the File Upload user interface
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <title>SSD OAuth Assignment</title>
+  
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+ 
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min2.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+  
+    <div class="container text-center my-auto">
+
+    <div>
+	
+     <input class="btn" id="files" type="file" name="files[]" multiple/>
+	 
+     <button class="btn btn-primary" id="upload" onclick="Swal.fire('Success!','Sucessfully Uploaded!','success')">Upload</button>
+	
+	<br/><br/>
+   </div> 
+   <div id="result">
+       
+   </div>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="upload.js"></script>
+</body>
+
+</html>
+</html>
