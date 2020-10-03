@@ -2,6 +2,10 @@
 This repository contains the application code which was written using JavaScript, Node.js, html, Bootstrap, JQuery, and Ajax for the OAuth assignment.
 This application could use to upload images to the Google Drive with the usage of OAuth authentication.
 
+Authors
+IT17096744 - N.J.Godewithana
+IT17018524 - Rivishanka R.M.R.U.
+
 # Application Deployment Steps
 1. Download or clone the repository into a local folder
 2. Open the command prompt and navigate the path into the 'SSD-Assignment-2' folder
