@@ -13,7 +13,7 @@
 $(document).ready(function(){
      
 	 //client id
-     var clientId = "349805278143-c2vi2ruhvv8032fq9558sr111ohbn6pp.apps.googleusercontent.com";
+     var clientId = "879794459258-fdi44noq0dv8ul1t46nvrsc556hi372k.apps.googleusercontent.com";
 	 
 	 //redirect url in google console to file upload page
      var redirect_uri = "http://localhost:3000/upload.html";

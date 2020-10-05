@@ -1,0 +1,3 @@
+Client ID: 879794459258-fdi44noq0dv8ul1t46nvrsc556hi372k.apps.googleusercontent.com
+
+Secret Key: E_myAtVH17nPEAQVbapzawaL

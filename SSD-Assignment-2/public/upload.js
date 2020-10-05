@@ -15,13 +15,13 @@ $(document).ready(function(){
     const code = urlParams.get('code');
 	
 	//client id taken from the application registration
-    var client_id = "349805278143-c2vi2ruhvv8032fq9558sr111ohbn6pp.apps.googleusercontent.com";
+    var client_id = "879794459258-fdi44noq0dv8ul1t46nvrsc556hi372k.apps.googleusercontent.com";
 	
 	 //redirect url in google console to the file upload page
     const redirect_uri = "http://localhost:3000/upload.html";
 	
 	 //secret key 
-    const client_secret = "9uXTygPgsHcmMLH7NsU_Gvhk";
+    const client_secret = "E_myAtVH17nPEAQVbapzawaL";
 	
 	//url for google drive Resource Server
     const scope = "https://www.googleapis.com/auth/drive";
