@@ -17,10 +17,10 @@ $(document).ready(function(){
 	//client id taken from the application registration
     var client_id = "879794459258-fdi44noq0dv8ul1t46nvrsc556hi372k.apps.googleusercontent.com";
 	
-	 //redirect url in google console to the file upload page
+	//redirect url in google console to the file upload page
     const redirect_uri = "http://localhost:3000/upload.html";
 	
-	 //secret key 
+	//secret key 
     const client_secret = "E_myAtVH17nPEAQVbapzawaL";
 	
 	//url for google drive Resource Server
@@ -79,7 +79,7 @@ $(document).ready(function(){
         formData.append("file", this.file, this.getName());
         formData.append("upload_file", true);
     
-		//request to uload the file to Google Drive
+		//request to upload the file to Google Drive
         $.ajax({
             type: "POST",
             beforeSend: function(request) {

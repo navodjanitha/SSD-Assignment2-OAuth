@@ -32,10 +32,10 @@ $(document).ready(function(){
 
      });
 
-	 //authentication using OAuth
+	  //authentication using OAuth
      function signInToGoogleAccount(clientId,redirect_uri,scope,url){
       
-       //OAuth url for the authentication and verification
+        //OAuth url for the authentication and verification
         url = "https://accounts.google.com/o/oauth2/v2/auth?redirect_uri="+redirect_uri
         +"&prompt=consent&response_type=code&client_id="+clientId+"&scope="+scope
         +"&access_type=offline";
